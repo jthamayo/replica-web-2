@@ -1,0 +1,36 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+h1{
+    text-transform: capitalize;
+}
+button{
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+}
+.description, .image-description{
+    padding: 10px;
+    text-align: left;
+    width: 40%;
+    float: left;
+}
+
+p{
+    padding-bottom: 5%;
+}
+ul{
+    padding: 0;
+}
+
+button{
+    height: 2.5em;
+    width: 9em;
+    color: white;
+    background-color: rgb(250, 80, 100);
+    border: none;
+    border-radius: 30px;
+}
