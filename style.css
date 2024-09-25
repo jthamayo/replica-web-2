@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a img {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #ff5b5b;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: 2px solid #ff5b5b;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ff5b5b;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: #ff5b5b;
+    color: #fff;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 180px;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-content li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Título principal */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+sub {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #777;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+div {
+    margin-top: 40px;
+}
+
+div button {
+    background-color: #ff5b5b;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div button:hover {
+    background-color: #ff2e2e;
+}
