@@ -2,6 +2,9 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 h1{
     text-transform: capitalize;
@@ -25,12 +28,44 @@ p{
 ul{
     padding: 0;
 }
+section{
+    width: 100%;
+}
+.section-2{
+    width: 100%;
+    background-color: rgb(115, 96, 96);
+}
 
 button{
+    font-weight: 750;
     height: 2.5em;
     width: 9em;
     color: white;
     background-color: rgb(250, 80, 100);
     border: none;
     border-radius: 30px;
+}
+
+.terms-privacy > #privacy{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.feature-buttons{
+    list-style: none;
+}
+.feature-buttons > li{
+    display: inline-block;
+}
+
+.feature-buttons > li > button{
+    border-radius: 0;
+    color: rgb(106, 106, 106);
+    text-transform: capitalize;
+    background-color: white;
+}
+.feature-buttons > li > button:hover{
+    background-color: rgb(147, 109, 225);
+    color: white;
 }
