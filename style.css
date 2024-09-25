@@ -1,0 +1,25 @@
+.body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: brown;
+  }
+
+.section_div1{
+    position: relative;
+
+}
+
+.footer{
+    background-color: blueviolet;
+}
+
+.icons{
+    height: auto;
+    max-width: 100%;
+}
+
+.movil_img{
+    height: auto;
+    max-width: 100%;
+}
