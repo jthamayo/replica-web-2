@@ -2,10 +2,36 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    font-size: 2vmin;
     margin: 0;
     padding: 0;
     width: 100%;
 }
+
+section{
+    width: 100%;
+    height: 50%;
+    vertical-align: middle;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.section-2{
+    background-color: rgb(232, 237, 242);
+}
+
+.container{
+    padding: 5%;
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+    min-width: 600px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
 h1{
     text-transform: capitalize;
 }
@@ -14,16 +40,19 @@ button{
 }
 img{
     width: 100%;
-}
-div{
-    height:"100%";
+    height: auto;
 }
 .description, .image-description{
-    padding: 10px;
+    padding: 0;
+    margin: 0 auto;
     text-align: left;
-    width: 40%;
-    float: left;
+    width: 50%;
     height: 100%;
+}
+
+.image-description{
+    display: flex;
+
 }
 
 p{
@@ -32,16 +61,6 @@ p{
 ul{
     padding: 0;
 }
-section{
-    align-content: center;
-    width: 100%;
-    height: 50%;
-    vertical-align: middle;
-}
-.section-2{
-    background-color: rgb(232, 237, 242);
-}
-
 button{
     font-weight: 750;
     height: 2.5em;
