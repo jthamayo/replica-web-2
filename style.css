@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
@@ -70,7 +68,6 @@ nav ul li button:hover {
     color: #fff;
 }
 
-/* Dropdown Menu */
 .dropdown {
     position: relative;
 }
@@ -99,7 +96,6 @@ nav ul li button:hover {
     background-color: #f9f9f9;
 }
 
-/* Título principal */
 h1 {
     font-size: 48px;
     font-weight: bold;
@@ -133,4 +129,35 @@ div button {
 
 div button:hover {
     background-color: #ff2e2e;
+}
+
+.button-icon {
+    width: 20px; 
+    height: auto;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+.apple-button, .playstore-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ff5b5b;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.apple-button:hover, .playstore-button:hover {
+    background-color: #ff2e2e;
+}
+
+.playstore-button img,
+.apple-button img {
+    width: 20px; 
+    height: auto;
 }
