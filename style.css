@@ -1,98 +1,132 @@
-
-body{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 2vmin;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
 }
 
-section{
-    width: 100%;
-    height: 50%;
-    vertical-align: middle;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-
-}
-.section-2{
-    background-color: rgb(232, 237, 242);
+section {
+  width: 100%;
+  height: 50%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
-.container{
-    padding: 5%;
-    width: 80%;
-    height: auto;
-    max-width: 1200px;
-    min-width: 600px;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-evenly;
+.section-2 {
+  background-color: rgb(232, 237, 242);
 }
 
-h1{
-    text-transform: capitalize;
-}
-button{
-    text-transform: uppercase;
-}
-img{
-    width: 100%;
-    height: auto;
-}
-.description, .image-description{
-    padding: 0;
-    margin: 0 auto;
-    text-align: left;
-    width: 50%;
-    height: 100%;
+.container {
+  padding: 5%;
+  width: 950px;
+  min-width: 700px;
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
 }
 
-.image-description{
-    display: flex;
-
+h1 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 750;
 }
 
-p{
-    padding-bottom: 5%;
-}
-ul{
-    padding: 0;
-}
-button{
-    font-weight: 750;
-    height: 2.5em;
-    width: 9em;
-    color: white;
-    background-color: rgb(250, 80, 100);
-    border: none;
-    border-radius: 30px;
+img {
+  width: 50%;
+  height: auto;
+  align-self: center;
+  margin: 0 5%;
 }
 
-.terms-privacy > #privacy{
-    background-color: transparent;
-    color: black;
-    border: 2px solid black;
+.description {
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+  height: 100%;
 }
 
-.feature-buttons{
-    list-style: none;
-}
-.feature-buttons > li{
-    display: inline-block;
-    margin-bottom: 3%;
-    margin-right: 2%;
+.image-description {
+  display: flex;
 }
 
-.feature-buttons > li > button{
-    border-radius: 0;
-    color: rgb(106, 106, 106);
-    text-transform: capitalize;
-    background-color: white;
+p#tasks {
+  padding-bottom: 5%;
 }
-.feature-buttons > li > button:hover{
-    background-color: rgb(147, 109, 225);
-    color: white;
+
+/*-------------list-decoration------------------*/
+
+ul {
+  padding: 0;
+  list-style: square;
+}
+
+ul.perks {
+  padding-left: 18px;
+}
+ul.description-check {
+  padding-left: 21px;
+}
+.perks > li,
+.description-check > li {
+  padding-bottom: 20px;
+}
+
+li::marker {
+  color: rgb(154, 154, 154);
+}
+
+/*-------------------button-decoration------------------*/
+
+.description button,
+.terms-privacy button {
+  text-transform: uppercase;
+  font-weight: 750;
+  height: 3em;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 10em;
+  color: white;
+  background-color: rgb(250, 80, 100);
+  border: none;
+  border-radius: 30px;
+}
+
+.feature-buttons > li > button {
+  border-radius: 0;
+  color: rgb(106, 106, 106);
+  text-transform: capitalize;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.terms-privacy > #privacy {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
+
+.feature-buttons {
+  list-style: none;
+}
+.feature-buttons > li {
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+
+.feature-buttons > li > button:hover {
+  background-color: rgb(147, 109, 225);
+  color: white;
+}
+
+.description-check {
+  list-style-image: url("icons/correcto.png");
 }
