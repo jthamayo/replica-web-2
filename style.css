@@ -130,3 +130,7 @@ li::marker {
 .description-check {
   list-style-image: url("icons/correcto.png");
 }
+
+.feature-buttons img{
+    width: 16px;
+}
