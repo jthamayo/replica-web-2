@@ -1,22 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sync-app-description</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d97b9905ce.js" crossover="anonymous"></script>
-</head>
-<body>
-    <main>
-        <section class="section-1">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sync app</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
+          rel="stylesheet"/>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet"/>
+      </head>
+      <body>
+        <header>
+          <nav>
+            <a href="index.html"><img src="images/favicon.png" alt="Logo" />Sync</a>
+          </nav>
+          <nav class="dropdowns">
+            <ul>
+              <li>Description</li>
+              <li>Features</li>
+              <li>Screens</li>
+              <li class="dropdown">
+                Extra
+                <ul class="dropdown-content">
+                  <li>Article Details</li>
+                  <li>Terms Conditions</li>
+                  <li>Privacy Policy</li>
+                </ul>
+              </li>
+              <li><button>Download</button></li>
+            </ul>
+          </nav>
+        </header>
+        <h1 class="starter_header">Mobile App Landing Page</h1>
+        <sub
+          >Start focusing on your goals and get more things done with Sync mobile
+          application. It's the first app to harness the power of social connections
+          to help you stay focused and get organized.</sub>
+        <div class="buttons_header">
+          <button class="apple-button">
+            <img src="logotipo-de-apple.png" alt="Apple logo" class="button-icon" />
+            Download
+          </button>
+          <button class="playstore-button">
+            <img
+              src="logo playstore.png"
+              alt="Play Store logo"
+              class="button-icon"
+            />
+            Download
+          </button>
+        </div>
+        <div class="mario_branch">
+          <section class="section_mobile">
+            <img src="images/header-iphone.png" class="mobile_img" />
+          </section>
+          <section class="section_icons">
+            <figure class="figure_1">
+              <img src="images/grupo.png" class="img_1" />
+              <p>Identify Goals</p>
+            </figure>
+            <figure class="figure_2">
+              <img src="images/codificacion.png" class="img_2" />
+              <p>Situation Analysis</p>
+            </figure>
+            <figure class="figure_3">
+              <img src="images/engranaje.png" class="img_3" />
+              <p>Task Settings</p>
+            </figure>
+            <figure class="figure_4">
+              <img src="images/burbuja-de-dialogo.png" class="img_4" />
+              <p>Social Interaction</p>
+            </figure>
+            <figure class="last_figure">
+              <img src="images/cohete.png" class="last_img" />
+              <p>Get things done</p>
+            </figure>
+          </section>
+        </div>
+        <section class="section-jth">
             <div class="container">
-                <img id="image-description" src="images\description-1-app.png"/>
+                <img class="descriptive" id="image-description" src="images\description-1-app.png"/>
                 <div class="description">
-                    <h1>Organize your time and start getting results</h1>
+                    <h2>Organize your time and start getting results</h1>
                     <p>Sync is the first mobile app on the market to harness the power of social connections to help you stop procrastinating and start getting things done. Give it a try and see the changes right away</p>
                     <ul class="perks">
                         <li>Analyse and evaluate your current status and productivity</li>
@@ -27,7 +97,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-2">
+        <section class="section-jth" id="section-2">
             <div class="container">
                 <div class="description">
                     <ul class="feature-buttons">
@@ -52,9 +122,8 @@
                         <button id="privacy">privacy</button>
                     </div>
                 </div>
-                <img src="images\description-2-app.png" alt="schedule-feature"/>
+            </div>
+            <img class="descriptive" src="images\description-2-app.png" alt="schedule-feature"/>
         </section>
-        <footer></footer>
-    </main>
 </body>
 </html>
