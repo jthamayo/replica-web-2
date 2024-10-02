@@ -242,7 +242,7 @@ nav ul li button:hover {
 }
 
 .starter_header {
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 750;
     margin-top: 40px;
 }
@@ -252,7 +252,7 @@ sub {
     font-size: 18px;
     margin-top: 10px;
     color: #777;
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
 }
 
@@ -260,16 +260,23 @@ sub {
     margin-top: 40px;
 }
 
+
+
 .buttons_header button {
+    display: inline-flex;
     background-color: #ff5b5b;
     color: white;
     border: none;
     padding: 15px 40px;
     border-radius: 50px;
-    margin: 10px;
+    margin: 3px;
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
+    text-transform: uppercase;
+    width: 215px;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons_header button:hover {
@@ -281,20 +288,6 @@ sub {
     height: auto;
     margin-right: 10px; 
     vertical-align: middle;
-}
-
-.apple-button, .playstore-button {
-    display: inline-flex;
-    align-items: center;
-    background-color: #ff5b5b;
-    color: white;
-    border: none;
-    padding: 15px 40px;
-    border-radius: 50px;
-    margin: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 .apple-button:hover, .playstore-button:hover {
@@ -354,6 +347,7 @@ figure img{
     gap: 100px;
     justify-items: center;
     padding: 50px 50px;
+    row-gap: 50px;
 }
 
 .figure_1{
