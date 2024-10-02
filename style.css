@@ -1,4 +1,4 @@
-body {
+.mario_branch {
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
 .section_mobile{
