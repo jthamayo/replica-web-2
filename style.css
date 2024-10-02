@@ -351,7 +351,7 @@ figure img{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
-    gap: 170px;
+    gap: 100px;
     justify-items: center;
     padding: 50px 50px;
 }
