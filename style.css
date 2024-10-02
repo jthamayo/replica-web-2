@@ -41,8 +41,9 @@ section.section-jth {
 
 h2 {
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 750;
+  margin-bottom: 40px;
 }
 
 img.descriptive {
