@@ -92,6 +92,11 @@ li::marker {
 
 /*-------------------button-decoration------------------*/
 
+#download{
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
 .description button,
 .terms-privacy button {
   text-transform: uppercase;
@@ -143,17 +148,12 @@ li::marker {
     width: 16px;
 }
 
-/*------------------MERGE---------------------*/
-
-
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
-    background-color: #fff;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 50px;
+    background-color: #f7fafd;
 }
 
 nav a {
@@ -166,7 +166,8 @@ nav a {
 }
 
 nav a img {
-    margin-right: 10px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 nav a:hover {
@@ -176,6 +177,7 @@ nav a:hover {
 nav ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
