@@ -96,7 +96,7 @@ nav ul li button:hover {
     background-color: #f9f9f9;
 }
 
-h1 {
+.starter_header {
     font-size: 48px;
     font-weight: bold;
     margin-top: 40px;
@@ -111,11 +111,11 @@ sub {
     margin: 20px auto;
 }
 
-div {
+.buttons_header {
     margin-top: 40px;
 }
 
-div button {
+.buttons_header button {
     background-color: #ff5b5b;
     color: white;
     border: none;
@@ -127,7 +127,7 @@ div button {
     font-size: 16px;
 }
 
-div button:hover {
+.buttons_header button:hover {
     background-color: #ff2e2e;
 }
 
@@ -178,6 +178,7 @@ div button:hover {
     justify-content: center;
     flex-flow: wrap;
     width: 1300px;
+    margin-top: 150px;
 }
 
 .mobile_img{
