@@ -1,6 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7fafd;
+  color: #333;
+  text-align: center;
   font-size: 18px;
   margin: 0 auto;
   padding: 0;
@@ -135,21 +143,9 @@ li::marker {
     width: 16px;
 }
 
-/*---------------------------------------*/
+/*------------------MERGE---------------------*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f9fafc;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-}
 
 header {
     display: flex;
