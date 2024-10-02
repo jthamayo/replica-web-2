@@ -41,8 +41,9 @@ section.section-jth {
 
 h2 {
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 750;
+  margin-bottom: 40px;
 }
 
 img.descriptive {
@@ -257,34 +258,49 @@ sub {
 }
 
 .buttons_header {
+    display: flex;
     margin-top: 40px;
+    align-content: center;
+    justify-content: center;
 }
-
-
 
 .buttons_header button {
     display: inline-flex;
     background-color: #ff5b5b;
     color: white;
     border: none;
-    padding: 15px 40px;
     border-radius: 50px;
-    margin: 3px;
+    margin: 5px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     width: 215px;
     align-items: center;
     justify-content: center;
 }
 
+.playstore-button{
+    height: 55px;
+}
+
+.apple-button{
+    height: 55px;
+}
+
 .buttons_header button:hover {
     background-color: #ff2e2e;
 }
 
-.button-icon {
-    width: 20px; 
+#button-icon1 {
+    font-size: 25px; 
+    height: auto;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+#button-icon2 {
+    font-size: 20px; 
     height: auto;
     margin-right: 10px; 
     vertical-align: middle;
@@ -294,11 +310,6 @@ sub {
     background-color: #ff2e2e;
 }
 
-.playstore-button img,
-.apple-button img {
-    width: 20px; 
-    height: auto;
-}
 .mario_branch {
     max-width: 100%;
     height: auto;
@@ -324,31 +335,34 @@ sub {
     height: auto;
 }
 
-figure p{
-    padding: 20px;
+figure figcaption{
+    padding: 35px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    font-size: 25px;
 }
 
-figure img{
+figure i{
     width: 150px;
-    height: 100px;
+    height: 150px;
     max-width: 100%;
     height: auto;
     border-radius: 100px;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
+    font-size: 70px;
 }
 
 .section_icons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
-    gap: 100px;
+    gap: 20px;
     justify-items: center;
-    padding: 50px 50px;
+    padding: 80px 50px;
     row-gap: 50px;
 }
+
 
 .figure_1{
     grid-column: 1;
@@ -375,22 +389,32 @@ figure img{
     grid-column: 1/-1;
 }
 
-.img_1{
+#img_1{
+    height: 150px;
     background-color: #ebe7fa;
+    color: #aa7eec;
 }
 
-.img_2{
+#img_2{
+    height: 150px;
     background-color: #daf4ef;
+    color: #19ca94;
 }
 
-.img_3{
+#img_3{
+    height: 150px;
     background-color: #f8e5ea;
+    color: #ff556e;
 }
 
-.img_4{
+#img_4{
+    height: 150px;
     background-color: #f8f1de;
+    color: #ffb30f
 }
 
-.last_img{
+#last_img{
+    height: 150px;
     background-color: #e1f2fa;
+    color: #4fb9e8;
 }
